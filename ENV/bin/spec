@@ -1,0 +1,10 @@
+#!/home/ubuntu/workspace/meatme-oscar/ENV/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'spec==0.11.1','console_scripts','spec'
+__requires__ = 'spec==0.11.1'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('spec==0.11.1', 'console_scripts', 'spec')()
+    )
